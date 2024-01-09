@@ -1,0 +1,758 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---- section la barre noir du dessus ---- */
+.follow_us {
+    height: 5vh;
+    background-color: #252525;
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.horaires {
+    width: 290px;
+    margin-right: 60%;
+}
+
+.reseaux_sociaux {
+    display: flex;
+    float: inline-end;
+    padding-top: 15px;
+    width: 230px;
+}
+
+header i {
+    margin: 2px;
+}
+
+/* ---- section logo et information du site web ---- */
+.company_information {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1%;
+    margin-bottom: 20px;
+}
+
+.logo {
+    margin-right: 35%;
+}
+
+.carousel_slide {
+    margin-top: 5px;
+}
+
+/* ---- section navbar et carousel ---- */
+.navbar {
+    margin-left: 30%;
+}
+
+.navbar-fixed {
+    position: absolute;
+    width: 50%;
+    z-index: 1000;  /* Assure que la navbar est au-dessus du contenu */
+}
+
+a:hover {
+    color: #e45f4e !important;
+}
+
+.carousel {
+    margin-top: -80px; /* Ajoutez ici la hauteur de votre navbar si nécessaire */   
+}
+
+#carouselExample h5 {
+    color: #e45f4e;
+}
+
+#carouselExample h1 {
+    font-size: 40px;
+}
+
+#carouselExample .btn {
+    background-color: #e45f4e;
+    color: white;
+}
+
+.carousel-caption {
+    margin-bottom: 20%;
+}
+
+/* ---- section coop ---- */
+.coop {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.coop span {
+    color: gray;
+}
+
+.policeman {
+    padding-top: 50px;
+    width: 30%;
+}
+
+.coop i {
+    margin-right: 10px;
+    float: left;
+    color: #e45f4e;
+    font-size: 70px;
+}
+
+.ouvrier {
+    padding-top: 50px;
+    width: 30%;
+}
+
+.surveillance {
+    padding-top: 50px;
+    width: 30%;
+}
+
+/* ---- section approvment ---- */
+.approvment {
+    background-color: #f6f6f6;
+    display: flex;
+    margin-top: 5%;
+}
+
+.about_us {
+    padding-top: 20%;
+    margin-left: 20px;
+}
+
+.about_us h4 {
+    font-size: 15px;
+}
+
+aside i {
+    color: #e45f4e;
+}
+
+.about_us span {
+    color: gray;
+    font-size: small;
+}
+
+.div1 h5 {
+    color: #e45f4e;
+}
+
+.div1 {
+    width: 60%;
+}
+
+.div2 {
+    width: 55%;
+}
+
+.div3 {
+    width: 55%;
+}
+
+.les2 {
+    display: flex;
+    font-size: 12px;
+}
+
+.about_us i {
+    font-size: 70px;
+}
+
+aside button {
+    background-color: #e45f4e;
+    border: 1px solid #e45f4e;
+    padding: 8px;
+    margin-top: 10px;
+    color: white;
+}
+
+/* ---- section nos services ---- */
+.nos_service {
+    text-align: center;
+    padding: 20px;
+}
+
+.nos_service .titre {
+    display: flex;
+    justify-content: center;
+}
+
+.titre h5 {
+    color: #e45f4e;
+}
+
+.nos_service i {
+    color: white;
+    font-size: 25px;
+
+}
+
+.ligne1 {
+    display: flex;
+}
+
+.ligne2 {
+    display: flex;
+}
+
+.cards {
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.en-tete {
+    display: flex;
+    background-color: #252525;
+    color: white;
+    height: 13%;
+}
+
+.en-tete p {
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+.card-text {
+    background-color: #f6f6f6;
+}
+
+.card {
+    border: 1px solid grey;
+    width: 18rem;
+    margin: 10px;
+}
+
+/* ---- section les chiffres ---- */
+.les-chiffres {
+    background-color: #e45f4e;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+}
+
+.icone {
+    background-color: #e45f4e;
+    padding-right: 5%;
+}
+
+.les-chiffres i {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.les-chiffres span {
+    font-size: 60px;
+}
+
+/* ---- section pourquoi nous choisir ---- */
+.why_us {
+    display: flex;
+}
+
+.left_div {
+    margin-left: 3%;
+    height: 30%;
+    width: 30%;
+}
+
+.left_div h5 {
+    color: #e45f4e;
+}
+
+.left_div h2 {
+    width: 400px;
+}
+
+.left_div span {
+    color: grey;
+}
+
+.left_div button {
+    margin-top: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 60%;
+    font-size: 20px;
+    background-color: #e45f4e;
+    border: 1px solid #e45f4e;
+    color: white;
+}
+
+.img_feature {
+    border: 1px solid rgb(185, 185, 185);
+    padding: 5%;
+    width: 90%;
+}
+
+.center_div {
+    margin-left: 10%;
+}
+
+.head_icone {
+    display: flex;
+}
+
+.head_icone i {
+    background-color: #e45f4e;
+    color: white;
+    font-size: 30px;
+    padding-right: 15px;
+}
+
+.head_icone h5 {
+    margin-top: 4%;
+    margin-left: 2%;
+    font-size: 15px;
+    color: black;
+}
+
+.head_text {
+    font-size: 15px;
+}
+
+.center_div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Deux colonnes de largeur égale */
+    gap: 20px;
+    /* Espace entre les colonnes */
+}
+
+.div1,
+.right_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.choice {
+    width: calc(33.33% - 10px);
+    /* Largeur de chaque carte avec espace entre elles */
+    margin-bottom: 20px;
+    /* Espace entre les cartes */
+}
+
+/* -----------------------------section newsletter------------------------- */
+.newsletter {
+    border: 1px solid red;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #e45f4e;
+    color: white;
+    text-align: center;
+}
+
+.inscription button {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-left: -5px;
+}
+
+.inscription input {
+    height: 37px;
+}
+
+/* -----------------------------section nos agents------------------------- */
+.nos_agents {
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nos_agents .titre {
+    margin-bottom: 3%;
+    width: 100%;
+    text-align: center;
+}
+
+.agent1 {
+    display: flex;
+    width: 50%;
+    height: 230px;
+    text-align: end;
+    margin-bottom: 3%;
+}
+
+.agent1 span {
+    color: gray;
+}
+
+.agent1 p {
+    color: gray;
+}
+
+.agent1 a {
+    color: #e45f4e;
+}
+
+.agent2 {
+    display: flex;
+    width: 50%;
+    height: 230px;
+    text-align: start
+}
+
+.agent2 span {
+    color: gray;
+}
+
+.agent2 p {
+    color: gray;
+}
+
+.agent2 a {
+    color: #e45f4e;
+}
+
+.image_agent {
+    margin-left: 5%;
+}
+/* ----------------------------- section nos témoignages ------------------------- */
+
+.nos_temoignages {
+    padding-top: 3%;
+    background-color: rgb(235, 235, 235);
+}
+
+.nos_temoignages .titre {
+    margin-bottom: 3%;
+    width: 100%;
+    text-align: center;
+}
+
+#temoignageSection {
+    background-color: rgb(235, 235, 235);
+    margin-bottom: 5%;
+}
+
+#temoignagep1 {
+    font-size: 30px !important;
+}
+
+#temoignageContainer {
+    width: 60%;
+    margin-left: 20%;
+}
+
+#temoignageContainer img {
+    border-radius: 50%;
+    width: 70px;
+    border: 1px solid rgba(143, 143, 143, 0.601);
+    padding: 6px;
+    margin-left: 10%;
+}
+
+#temoignageContainer p {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 27% 75%, 20% 87%, 15% 75%, 0% 75%);
+    background-color: white;
+    margin-right: 5%;
+    font-size: 10px;
+    padding: 15px 15px 40px 15px;
+}
+
+#btnTemoignage {
+    padding-bottom: 100px;
+}
+
+#btnTemoignage button {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(212, 212, 212);
+    border: 0;
+    margin-left: 10px;
+}
+
+#btnTemoignage .active {
+    background-color: #e45f4e;
+}
+
+/* ----------------------------- section blog recent ------------------------- */
+.blog_recent .titre {
+    margin-bottom: 3%;
+    width: 100%;
+    text-align: center;
+}
+
+.blog_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blog_card_head {
+    padding-left: 1%;
+    background-color: #252525;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog_card_head p {
+    margin-top: 5%;
+    margin-left: 2%;
+    font-size: 16px;
+}
+
+.blog_card_head .icone {
+    height: 100%;
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    background-color: #e45f4e;
+    color: white;
+}
+
+.card-body {
+    background-color: #f6f6f6;
+}
+
+.blog_card_info {
+    font-size: 11px;
+    width: 100%;
+    display: flex;
+    color: gray;
+}
+
+.blog_card_info i {
+    color: #e45f4e;
+}
+
+.card-text {
+    color: gray;
+}
+
+/* ----------------------------- footer ------------------------- */
+footer {
+    background: #252525;
+    height: 50vh;
+}
+
+footer img {
+    width: 90%;
+    margin-bottom: 15%;
+}
+
+#divFooterUn {
+    margin-left: 2%;
+    margin-right: 5%;
+}
+
+#divFooterUn p {
+    margin-left: 1%;
+    font-size: 12px;
+    color: white;
+    font-weight: 200;
+    margin-bottom: 15% !important;
+}
+
+#copyright {
+    font-size: 12px;
+    margin-left: 1%;
+    color: white;
+}
+
+#divFooterDeux,
+#divFooterTrois,
+#divFooterQuatre {
+    margin-left: 3%;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+#divFooterDeux h6,
+#divFooterTrois h6,
+#divFooterQuatre h6 {
+    color: #e45f4e;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 3%;
+}
+
+footer .fa-angle-right,
+footer #divFooterQuatre i {
+    margin-right: 2% !important;
+}
+
+#reseauxFooter {
+    margin-top: 20% !important;
+    font-size: 10px;
+}
+
+#reseauxFooter i {
+    margin-left: 1% !important;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+#dernierLi {
+    margin-top: 40% !important;
+    word-spacing: 20px;
+}
+
+footer h6 {
+    margin-left: 10% !important;
+}
+
+/* ----------------------------- responsive code ------------------------- */
+
+@media only screen and (max-width: 768px) {
+    /* ---- section la barre noir du dessus ---- */
+
+    .follow_us {
+        flex-direction: column;
+        padding: 50%;
+        margin-bottom: 5%;
+    }
+    
+.company_information {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ---- section logo et information du site web ---- */
+.logo {
+    margin-left: 34%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ---- section coop ---- */
+.coop {
+    margin: 3%;
+    flex-direction: column;
+    display: flex;
+}
+
+.coop .policeman {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.coop .ouvrier {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.coop .surveillance {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* ---- section approvment ---- */
+.approvment {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.approvment img {
+    height: 100%;
+    width: 100%;
+}
+
+.approvment .about_us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.approvment button {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* ---- section les chiffres ---- */
+#containerSeparationUn {
+    flex-direction: column;
+}
+
+/* ---- section pourquoi nous choisir ---- */
+.why_us {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.center_div {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.left_div {
+    width: 100%;
+    text-align: center;
+}
+
+.left_div button {
+    margin-bottom: 8%;
+}
+
+.div1 {
+    width: 90%;
+}
+
+.right_div {
+    width: 90%;
+}
+
+/* ---- section nos agents ---- */
+
+.nos_agents {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.image_agent {
+    width: 20%;
+    height: 20%;
+    margin: 10%;
+}
+.nos_agents .agent1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-bottom: 10%;
+}
+
+.nos_agents .agent2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+
+.nos_agents .agent3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+
+.nos_agents .agent4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+
+}
+ 
